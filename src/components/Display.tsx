@@ -19,7 +19,7 @@ export default function Display({ response }: DisplayProps) {
         <Typewriter
           key={key}
           options={{
-            delay:50
+            delay:10
           }}
           onInit={(typewriter) => {
             typewriter
