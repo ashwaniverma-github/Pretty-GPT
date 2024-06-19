@@ -31,12 +31,12 @@ export default function Input() {
                 <input 
                     type="text" 
                     placeholder="I can hurt you" 
-                    className="input bg-gray-700 rounded-badge mb-5 w-4/5 max-w-lg"
+                    className="input bg-gray-700 rounded-badge mb-5 w-4/5 max-w-xl md:ml-0 ml-4 "
                     onChange={(e)=>
                         setUserMessage(e.target.value)
                     }
                 />
-                <div className="mx-5 ">
+                <div className="mx-4 ">
                     <Button onclick={sendMessaege} />
                 </div>
             </div>
