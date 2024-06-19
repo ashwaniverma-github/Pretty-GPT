@@ -14,9 +14,9 @@ export default function Display({ response }: DisplayProps) {
   }, [response]);
 
   return (
-    <div className="flex justify-center pt-5">
-      <div className="mb-5 w-4/5 max-w-lg">
-        <Typewriter
+    <div className="flex justify-center min-h-screen ">
+      <div className=" mb-5 w-4/5 max-w-lg m-4">
+        <Typewriter 
           key={key}
           options={{
             delay:50
