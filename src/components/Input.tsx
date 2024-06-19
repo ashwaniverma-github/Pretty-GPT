@@ -11,7 +11,7 @@ export default function Input() {
 
     async function sendMessaege(){
         try{
-            const response  = await axios.post('http://54.79.207.102/api/chat',{
+            const response  = await axios.post('http://ec2-13-236-165-222.ap-southeast-2.compute.amazonaws.com/api/chat',{
                 message:userMessage
             })
             const message = response.data.lallan
