@@ -17,6 +17,8 @@ export default function Input() {
             const message = response.data.lallan
             console.log(`Received message: ${message}`)
             setLallanMessage(message)
+            setUserMessage('')
+            
             
             
 
@@ -32,6 +34,7 @@ export default function Input() {
                     type="text" 
                     placeholder="Send message" 
                     className="input bg-gray-700 rounded-badge mb-5 w-4/5 max-w-xl md:ml-0 ml-4 "
+                    value={userMessage}
                     onChange={(e)=>
                         setUserMessage(e.target.value)
                     }
