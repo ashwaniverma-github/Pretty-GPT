@@ -15,7 +15,7 @@ export default function Display({ response }: DisplayProps) {
 
   return (
     <div className="flex justify-center min-h-screen ">
-      <div className=" mb-5 w-4/5 max-w-lg m-4 pt-20 sm:pt-0">
+      <div className=" mb-5 w-4/5 max-w-lg m-4 mt-20 sm:mt-4">
         <Typewriter 
           key={key}
           options={{
