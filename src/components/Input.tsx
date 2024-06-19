@@ -30,7 +30,7 @@ export default function Input() {
             <div className="absolute inset-x-0 bottom-5 flex justify-center">
                 <input 
                     type="text" 
-                    placeholder="I can hurt you" 
+                    placeholder="Send message" 
                     className="input bg-gray-700 rounded-badge mb-5 w-4/5 max-w-xl md:ml-0 ml-4 "
                     onChange={(e)=>
                         setUserMessage(e.target.value)
