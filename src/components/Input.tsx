@@ -11,7 +11,7 @@ export default function Input() {
 
     async function sendMessaege(){
         try{
-            const response  = await axios.post('http://localhost:3000/api/chat',{
+            const response  = await axios.post('/api/chat',{
                 message:userMessage
             })
             const message = response.data.lallan
