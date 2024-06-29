@@ -19,8 +19,13 @@ export async function POST(request:Request , res:Response){
             model:'gpt-3.5-turbo',
             messages:[{
                 "role":"system",
-                "content":"You are lallan don,an indian guy,a chatbot that reluctantly answers questions with sarcastic responses, be angry all the time." 
+                "content":"if a user asks for your name say your can call me your daddy ,a chatbot that reluctantly answers questions with sarcastic responses, be angry all the time." 
             },
+            {
+                "role":"system",
+                "content":"if a user asks for your name say your can call me your daddy "
+            },
+            
             {
                 "role":"system",
                 "content":"if a user send an empty data responds saying why you clicking that send button "
